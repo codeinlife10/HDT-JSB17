@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Cách 2 : Style bằng thẻ style trong html -->
+    <style>
+        /* Style theo tên thẻ */
+        /* p {
+            width:100%;
+            height:100%;
+            color: red;
+        } */
+        /* Style theo tên class => Chủ yếu sử dụng style theo tên class  */
+        /* .the_p1 {
+            color: red;
+        } */
+        /* Style theo tên id ít sử dụng mà thường dùng id trong javascript nhiều hơn   */
+        /* #the_p1{
+            color:red
+        } */
+    </style>
+
+    <!-- Cách 3 : Tạo file css và nhúng vào html thông qua thẻ link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 3 cách css cho 1 thẻ html  -->
+
+    <!-- Cách 1: style trực tiếp trên thẻ  -->
+    <!-- <p style="width: 100%;height:100%">Hello</p> -->
+
+    <!-- <p class="the_p1">Buồn lắm :))</p>
+    <p class="the_p1">Good Bye</p> -->
+    <!-- <p id="the_p1">The p1</p>
+    <p id="the_p1">The p2</p> -->
+    <!-- <p>Hi</p> -->
+
+
+    <!-- Cách 3: Tạo file css và nhúng vào trong html thông qua thẻ link -->
+    <!-- <p class="bg_red">Im lặng nhỉ</p>    -->
+
+
+    <!-- Giới thiệu về block, inline,inline-block thông qua ví dụ -->
+    <!-- <div class="div_1">Im a div</div>
+
+    <span class="span_1">Im a span 1</span>
+    <span class="span_1">Im a span 2</span> -->
+    
+    <div class="parent">
+
+        <div style="background-color: red;" class="child">1</div>
+        <div style="background-color:blue" class="child">2</div>
+        <div style="background-color:green" class="child">3</div>
+        <div style="background-color:peru" class="child">4</div>
+
+    </div>
+    
+
+</body>
+</html>
