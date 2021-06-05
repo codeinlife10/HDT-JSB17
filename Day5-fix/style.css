@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
+.left {
+    width: 68%;
+    height:100%
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.right {
+    width:32%;
+    height:100%
+}
+.right-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+form {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-label {
+    position: absolute;
+    top: 97px;
+    margin-left: -210px;
+    background-color: white;
+    font-size: 14px;
+}
+.password-label {
+    position: absolute;
+    top: 170px;
+    margin-left: -290px;
+    background-color: white;
+    font-size: 14px;
+
+}
+
+input {
+    width: 80%;
+    height:36px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+
+form button {
+    width: 80%;
+    height:36px;
+    box-shadow: 0px 1px #888888;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.circle-contain {
+    width: 60px;
+    height: 60px;
+    background-color:#3f51b5;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 36px;
+}
+
+.circle-small {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:#bdbdbd;
+    text-align: center;
+    line-height: 44px;
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+button:hover {
+    box-shadow: 1px 3px #888888;
+}
+
+/* absolute relative */
+
+
+
+
+
+
+
