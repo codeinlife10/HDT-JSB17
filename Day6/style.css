@@ -26,7 +26,7 @@ html,body {
 }
 
 .left {
-    width:25%;
+    width:25%; 
     height: 100%;
     background-color:orange;
     display: flex;
@@ -34,7 +34,7 @@ html,body {
 }
 
 .left-1 {
-    width:100%;
+    width:100%; 
     height:70px;
     background-color:rgb(212, 116, 99);
     margin-bottom: 40px; ;
@@ -71,14 +71,71 @@ html,body {
 .right {
     width:75%;
     height: 100%;
-    background-color:blue
 }
 
 .right-1 {
     width:100%;
     height:290px;
-    background-color:greenyellow
+    background-color:greenyellow;
+    position: relative;
 }
+
+.right-11 {
+    width:40%;
+    height:60px;
+    position:absolute;
+    right: 0;
+    bottom: 60px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.right-11-white {
+    background-color:white;
+    width:50%;
+    height:30px;
+}
+
+.right-11-black {
+    background-color:black;
+    width:100%;
+    height:30px
+}
+
+.right-2 {
+    width:100%;
+    height:40px;
+    display: flex;
+    background-color:white
+}
+
+.right-21 {
+    width:25%;
+    height: 40px;
+    background-color:green;
+    margin-right:1px ;
+}
+
+.right-3 {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(212, 116, 99);
+    margin-top: 20px;
+}
+
+.right-31 {
+    width: 60%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.footer {
+    width: 45%;
+    height:75px;
+    background-color:#9393b0
+}
+
 
 .footer {
     width: 45%;
