@@ -21,14 +21,12 @@ html,body {
 .main-content {
     width: 45%;
     height: 600px;
-    background-color:red;
     display: flex;
 }
 
 .left {
     width:25%; 
     height: 100%;
-    background-color:orange;
     display: flex;
     flex-direction: column;
 }
@@ -71,6 +69,7 @@ html,body {
 .right {
     width:75%;
     height: 100%;
+    margin-left: 8px;
 }
 
 .right-1 {
@@ -107,14 +106,14 @@ html,body {
     width:100%;
     height:40px;
     display: flex;
-    background-color:white
+    background-color:white;
 }
 
 .right-21 {
-    width:25%;
+    width:24.99%;
     height: 40px;
     background-color:green;
-    margin-right:1px ;
+    margin-right: 1px;
 }
 
 .right-3 {
@@ -130,10 +129,38 @@ html,body {
     background-color: lightblue;
 }
 
-.footer {
-    width: 45%;
-    height:75px;
-    background-color:#9393b0
+.right-4 {
+    width: 100%;
+    height: auto;
+    margin-top:20px
+}
+
+.right-41 {
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.right-41-green {
+    width:20%;
+    height:60px;
+    background-color:rgb(160, 226, 160)
+}
+
+.right-42 {
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 8px;
+}
+
+.right-42-orange {
+    width:20%;
+    height:115px;
+    background-color:orange;
+    margin-bottom: 20px;
 }
 
 
@@ -142,6 +169,7 @@ html,body {
     height:75px;
     background-color:#9393b0
 }
+
 
 
 
