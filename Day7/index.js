@@ -12,9 +12,9 @@
 
 // Toán học 
 // Hãy nhận vào 2 input người dùng và thực hiện tính toán 
-// Sinh ra 1 định nghĩa gọi là biến
+// Sinh ra 1 định nghĩa gọi là biến để lưu input vào thuận tiện cho việc xử lí 
 
-// let number1 = Number(prompt("Enter number 1")) // prompt cho phép nhập vào input của có kiểu string
+// let number1 = Number(prompt("Enter number 1")) // prompt cho phép nhập vào input của có kiểu string-> cần chuyển đổi sang Number
 // let number2 = Number(prompt("Enter number 2"))
 
 // console.log(number1 + number2)
