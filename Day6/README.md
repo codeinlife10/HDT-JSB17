@@ -12,5 +12,8 @@ x1 = (-b-căn(d))/4a
 x2 = (-b+căn(d))/4a    
 + Nếu d < 0 => Pt vô nghiệm
 
+Math.sqrt(d)
+
+
 *** Yêu cầu in ra màn hình console nghiệm cụ thể nếu có hoặc thông báo pt vô nghiệm
 */
