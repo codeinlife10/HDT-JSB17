@@ -88,4 +88,23 @@ $btn.addEventListener('click',() => {
 // $status.style.backgroundColor = "..."
 
 
+// Bài tập trên lớp
+// Tạo 1 hình vuông có cạnh 50px có nền màu đỏ có 1 đoạn text tùy chọn bên trong
+// Khi click vào hình vuông đó nền sẽ chuyển sang màu xanh 
+// Hình vuông sẽ lớn lên có cạnh 150px và chữ sẽ chuyển ra giữa 
+// Nội dung trong đó chuyển thành "Tôi bị bấm" 
+// Trong hình vuông lớn sẽ có 1 hình vuông nhỏ cạnh 25px nền màu "grey"
 
+
+// Trung Thành - Phạm Minh 
+// Vương Hưng - Đức Thiện 
+
+
+// Có thể tự thiết kế 
+// Làm lại 1 trang web của người khác 
+// Ý tưởng : 
+// _ Xuất phát từ đâu ? Giải quyết vấn đề gì 
+// _ Các bạn hãy tập trung vào phát triển giao diện - HTML/CSS
+// => Khóa 1 làm giao diện thật đẹp 
+// => Thêm chức năng vào 
+// Trước buổi học tuần sau phải đưa ra dc ý tưởng + giao diện 
